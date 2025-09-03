@@ -50,7 +50,7 @@ const server = app.listen(port, "0.0.0.0", () => {
       `Listening on port ${port}. Visit http://localhost:${port}/ in your browser.`
     )}`
   );
-  console.log(`${chalk.green("huymusic")}`);
+  console.log(`${chalk.green("huymusic-2")}`);
 });
 
 // Initialize WebSocket server
