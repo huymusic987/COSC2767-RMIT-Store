@@ -14,6 +14,12 @@ pipeline {
     }
 
     stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
         stage('Build & Push Images') {
             steps {
                 sh '''#!/bin/bash
